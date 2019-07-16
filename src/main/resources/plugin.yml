@@ -1,0 +1,11 @@
+main: tk.ox778.runas.Main
+name: runas
+version: 1.0
+author: Declan Freeman-Gleason
+description: Run a command as another player while ignoring permissions
+commands:
+  runas:
+    description: Run a command as another user while ignoring permissions
+    usage: /runas <player> <command string to run>
+    permission: runas
+    permission-message: You don't have the runas permission.
